@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.views.MainMenuController">
+   <children>
+      <Button fx:id="determiningWarehouse" ellipsisString=",,," layoutX="39.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleNodeSelection" prefHeight="138.0" prefWidth="168.0" text="Определить размещение склада" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="396.0" layoutY="185.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="168.0" text="Рассчитать достаточность машин" textAlignment="CENTER" wrapText="true" />
+      <Button ellipsisString=",,," layoutX="216.0" layoutY="23.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="168.0" text="Потребности бригад" textAlignment="CENTER" wrapText="true" />
+      <Button ellipsisString=",,," layoutX="396.0" layoutY="23.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="168.0" text="Привоз на ж/д станции" textAlignment="CENTER" wrapText="true" />
+      <Button ellipsisString=",,," layoutX="39.0" layoutY="185.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="168.0" text="Доступные изначально машины" textAlignment="CENTER" wrapText="true" />
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
